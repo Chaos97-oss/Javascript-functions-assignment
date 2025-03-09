@@ -22,7 +22,13 @@ calculateArea(5, 10); // Returns 50
 reverseString(str)
 Reverses a string.
 JavaScript
-reverseString("hello"); // Returns "olleh
+reverseString("hello"); // Returns "olleh"
 
 
+ 
+function isEven(number) {
+return number % 2 === 0;} 
+Even number checker.
+console.log(isEven(4)); //Returns "true"
+console.log(isEven(7)); // Returns "false"
 

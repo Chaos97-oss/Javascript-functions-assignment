@@ -39,10 +39,12 @@ Score Categorizer
 
 
 Test Results
-| Function       | Input  | Expected Output | Actual Output |
-|---------------|--------|----------------|---------------|
-| isEven        | 4      | true           | true          |
-| isEven        | 7      | false          | false         |
-| reverseString | "hello" | "olleh"       | "olleh"       |
-| scoreCategory | 85     | "Very Good"    | "Very Good"   |
-| scoreCategory | 60     | "Fail"         | "Fail"        |
+| Function       | Input           | Expected Output | Actual Output |
+|---------------|----------------|----------------|---------------|
+| isEven        | 4              | true           | true          |
+| isEven        | 7              | false          | false         |
+| reverseString | "hello"        | "olleh"        | "olleh"       |
+| scoreCategory | 85             | "Very Good"    | "Very Good"   |
+| scoreCategory | 60             | "Fail"         | "Fail"        |
+| calculateArea | (3.5, 2)       | 7              | 7             |
+| calculateArea | (10, 5)        | 50             | 50            |

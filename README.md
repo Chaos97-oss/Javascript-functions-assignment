@@ -39,54 +39,10 @@ Score Categorizer
 
 
 Test Results
-Test Case Results
-
-Function
-
-Input
-
-Expected Output
-
-Actual Output
-
-isEven
-
-4
-
-true
-
-true
-
-isEven
-
-7
-
-false
-
-false
-
-reverseString
-
-"hello"
-
-"olleh"
-
-"olleh"
-
-scoreCategory
-
-85
-
-"Very Good"
-
-"Very Good"
-
-scoreCategory
-
-60
-
-"Fail"
-
-"Fail"
-
-The test cases confirm that all functions work as expected.
+| Function       | Input  | Expected Output | Actual Output |
+|---------------|--------|----------------|---------------|
+| isEven        | 4      | true           | true          |
+| isEven        | 7      | false          | false         |
+| reverseString | "hello" | "olleh"       | "olleh"       |
+| scoreCategory | 85     | "Very Good"    | "Very Good"   |
+| scoreCategory | 60     | "Fail"         | "Fail"        |

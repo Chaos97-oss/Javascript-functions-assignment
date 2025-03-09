@@ -25,10 +25,68 @@ JavaScript
 reverseString("hello"); // Returns "olleh"
 
 
- 
-function isEven(number) {
-return number % 2 === 0;} 
-Even number checker.
-console.log(isEven(4)); //Returns "true"
-console.log(isEven(7)); // Returns "false"
 
+Even number checker.
+isEven(4); //Returns "true"
+isEven(7); // Returns "false"
+
+
+Score Categorizer
+(scoreCategory(99)); //Returns "Excellent"
+(scoreCategory(87)); //Returns "Very Good"
+(scoreCategory(75)); //Returns "Pass"
+(scoreCategory(60)); //Returns "Fail"
+
+
+Test Results
+Test Case Results
+
+Function
+
+Input
+
+Expected Output
+
+Actual Output
+
+isEven
+
+4
+
+true
+
+true
+
+isEven
+
+7
+
+false
+
+false
+
+reverseString
+
+"hello"
+
+"olleh"
+
+"olleh"
+
+scoreCategory
+
+85
+
+"Very Good"
+
+"Very Good"
+
+scoreCategory
+
+60
+
+"Fail"
+
+"Fail"
+
+The test cases confirm that all functions work as expected.
